@@ -6,14 +6,16 @@ public class SchoolApp {
         ola.addMarks(5.0, 5.0);
 
         Student roman = new Student("88070711223", "Roman", "Kowalski", List.of(4.0, 5.0, 5.0));
-
-        School school = new School("Hirely", List.of(ola, roman));
+        System.out.println(roman);
+        School school = new School("Hirely2", List.of(ola, roman));
         School sp1 = new School("super Szkoła Podstawowa nr 1", List.of(ola, roman));
         printSchoolMarksAverage(sp1);
         School sp2 = new School("great Szkoła Podstawowa nr 2");
         printSchoolMarksAverage(sp2);
         School sp3 = new School("cool Szkola Podstawowa nr 3");
         printSchoolMarksAverage(sp3);
+        School sp4 = new School("cool Szkola Podstawowa nr 4");
+
     }
 
 //    private static void printSchoolMarksAverage(School school) {
